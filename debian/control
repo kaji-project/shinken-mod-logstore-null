@@ -8,13 +8,15 @@ Standards-Version: 3.9.5
 XS-Python-Version: >= 2.5, << 3.0
 Vcs-Git: git://anonscm.debian.org/pkg-shinken/shinken-mod-logstore-null.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-shinken/shinken-mod-logstore-null.git;a=summary
-Homepage: http://shinken.io/package/shinken-mod-logstore-null
+Homepage: http://shinken.io/package/logstore-null
 
 Package: shinken-mod-logstore-null
 Architecture: any
 Depends: ${misc:Depends}, shinken-common
 Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
-Description: Shinken shinken-mod-logstore-null module
+Conflicts: shinken-module-broker-livestatus-null
+Replaces: shinken-module-broker-livestatus-null
+Description: Shinken logstore-null module
  Export logs to /dev/null for the Livestatus module
  .
  Shinken is a new, Nagios compatible monitoring tool, written in Python. The
