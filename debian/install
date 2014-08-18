@@ -1,0 +1,3 @@
+module/* /usr/share/pyshared/shinken/modules/shinken-mod-logstore-null
+README.md /usr/share/doc/shinken-mod-logstore-null
+etc/* /etc/shinken
