@@ -3,6 +3,6 @@ shinken-mod-logstore-null (1.4.1-1) unstable; urgency=medium
   * New upstream version 1.4.1
   * Add replaces shinken-module-broker-livestatus-null
   * Add custom config files
-  * Closes: #745458
+  * Closes: #760238
 
  -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Mon, 18 Aug 2014 16:18:41 -0400
