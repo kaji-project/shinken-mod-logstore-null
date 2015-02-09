@@ -1,0 +1,4 @@
+centos_6:
+    spec: debian/shinken-mod-logstore-null.spec
+debian_7:
+    debian: debian
