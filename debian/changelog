@@ -1,3 +1,9 @@
+shinken-mod-logstore-null (1.4.1-2kaji0.2) unstable; urgency=medium
+
+  * Kaji release
+
+ -- Thibault Cohen <thibault.cohen@savoirfairelinux.com>  Tue, 21 Apr 2015 17:44:50 -0400
+
 shinken-mod-logstore-null (1.4.1-1kaji0.2) unstable; urgency=medium
 
   * Kaji release
